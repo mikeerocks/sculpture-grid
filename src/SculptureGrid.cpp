@@ -10,7 +10,14 @@
 #include <iostream>
 using namespace std;
 
+#include "Block.h"
+
+
 int main() {
+	// Creating an object of Block class
+	Block b(10.5, 30.0, 45.0);
+	b.display();
+
 	cout << "test" << endl; // prints test message
 	return 0;
 }
